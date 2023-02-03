@@ -1,0 +1,51 @@
+.nav_container {
+  width: 15%;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+.nav_title {
+  text-align: left;
+  font-family: Inter, sans-seriff;
+  font-size: 18px;
+  margin: 20px;
+}
+.arrow-rotate {
+  transform: rotate(-180deg);
+  margin-left: 36%;
+  color: yellow;
+}
+.arrow-margin {
+  margin-left: 36%;
+}
+.accordion {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  border: none;
+}
+.accordion-act {
+  color: yellow;
+  width: 100%;
+  background-color: black;
+  border: none;
+}
+li {
+  color: yellow;
+}
+a :active {
+  color: yellow;
+}
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+ul {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color: yellow;
+}

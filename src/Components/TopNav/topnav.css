@@ -1,0 +1,37 @@
+.top-nav {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 1px 8px rgb(20 46 110 / 10%);
+  z-index: 100;
+}
+.icon-color {
+  color: yellow;
+}
+.first-section {
+  width: 14%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.avatar {
+  margin: 0px 20px;
+}
+image {
+  width: max-content;
+  height: max-content;
+  object-fit: contain;
+}
+.icons-pick {
+  margin: 0px 20px;
+}
